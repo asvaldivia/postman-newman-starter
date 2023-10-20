@@ -23,4 +23,4 @@ jobs:
         uses: mikepenz/action-junit-report@v2
         if: always() # always run even if the previous step fails
         with:
-          report_paths: 'newman/*.html'
+          report_paths: 'newman/*.xml'
